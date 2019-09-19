@@ -3,44 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sklifecycle</string>
+	<string>skstrongly</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [self setupViews];
-    [self setupData];
-    [self setupLayout];
-    
-}
-
-- (void)setupViews {
-    
-}
-
-- (void)setupData {
-    
-}
-
-- (void)setupLayout {
-    
-}
+	<string>    __strong typeof(weakSelf)strongSelf = weakSelf;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>441B1229-4A41-4C86-BE93-73E9D1AF506E</string>
+	<string>2127157C-8C30-43FC-B3DF-21E0F00D2DAC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>生命周期</string>
+	<string>strongly</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SKLifecycle</string>
+	<string>SKStrongly</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
