@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt;  value;
+	<string>@property (nonatomic, assign) &lt;#type#&gt;  &lt;#value#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AF237C92-3256-45B5-8139-77697F42CDB9</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>assign基本数据类型</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Assign</string>
+	<string>SKAssign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
