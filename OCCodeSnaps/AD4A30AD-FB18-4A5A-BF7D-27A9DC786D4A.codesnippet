@@ -3,26 +3,48 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sklocalblock</string>
+	<string>SKLifecycle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#returnType#&gt;(^&lt;#blocKname#&gt;)(&lt;#parameterTypes#&gt;) = ^&lt;#returnType#&gt; (&lt;#parameters#&gt;) {
-    &lt;#statements#&gt;
-    };</string>
+	<string>- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    [self setupViews];
+    [self setupData];
+    [self setupLayout];
+    [self privateMethod];
+
+}
+
+- (void)setupViews {
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)setupData {
+    
+}
+
+- (void)setupLayout {
+    
+}
+
+- (void)privateMethod {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FF1EAA42-6F02-4F0C-927E-9A441072D581</string>
+	<string>AD4A30AD-FB18-4A5A-BF7D-27A9DC786D4A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>block基本操作</string>
+	<string>SKLifecycle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SKLocalBlock</string>
+	<string>SKLifecycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

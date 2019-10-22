@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sklocalblock</string>
+	<string>skcopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#returnType#&gt;(^&lt;#blocKname#&gt;)(&lt;#parameterTypes#&gt;) = ^&lt;#returnType#&gt; (&lt;#parameters#&gt;) {
-    &lt;#statements#&gt;
-    };</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt;  *&lt;#value#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FF1EAA42-6F02-4F0C-927E-9A441072D581</string>
+	<string>19A7A8F1-9EA7-4473-BBF5-8720B1BD5811</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>block基本操作</string>
+	<string>拷贝属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SKLocalBlock</string>
+	<string>SKCopy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
